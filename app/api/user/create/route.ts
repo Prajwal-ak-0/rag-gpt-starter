@@ -1,15 +1,10 @@
-import client from '../../../../lib/db';
+import { NextResponse } from "next/server";
 
-import { auth, currentUser } from "@clerk/nextjs/server";
-import { PrismaClient } from "@prisma/client";
+import client from "../../../../lib/db";
 
-const prisma = new PrismaClient();
-
-export default async function Home() {
-  const { userId } = auth();
-
-  const user = await currentUser();
-
-
-
+export async function POST(
+  request: Request, 
+) {
+  
+  
 }

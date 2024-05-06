@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-=======
     /* Visit https://aka.ms/tsconfig to read more about this file */
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
@@ -94,24 +92,19 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
->>>>>>> 78e3e51497c00c879b44d5addc6bdbe8d1e443a9
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
     "allowJs": true,
-<<<<<<< HEAD
     "skipLibCheck": true,
     "strict": false,
     "noEmit": true,
     "incremental": true,
     "module": "esnext",
     "esModuleInterop": true,
-=======
-    "noEmit": true,
-    "incremental": true,
->>>>>>> 78e3e51497c00c879b44d5addc6bdbe8d1e443a9
+
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,

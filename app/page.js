@@ -2,13 +2,11 @@ import { auth, currentUser } from "@clerk/nextjs/server";
 
 
 export default async function Home() {
-  const { userId } = auth();
+  const user = await currentUser();
+  console.log('user', user);
 
-  console.log('userId', userId);
-
-  const user = await currentUser()
-
-  console.log('user', user)
+  
+ 
   return (
     <>
       awdasvv af
