@@ -1,4 +1,4 @@
-import { currentUser } from "@clerk/nextjs/dist/types/server";
+import { currentUser } from '@clerk/nextjs/server';
 import client from "../lib/db";
 import { User } from "../types/user";
 
