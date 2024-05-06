@@ -25,11 +25,17 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/node": "20.12.8",
+=======
+    "@types/node": "^20.12.8",
+>>>>>>> 78e3e51497c00c879b44d5addc6bdbe8d1e443a9
     "@types/react": "18.3.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }
